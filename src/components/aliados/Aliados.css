@@ -1,0 +1,20 @@
+.container-aliados{
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    padding: 80px 0px;
+}
+.container-aliados h1{
+    font-size: 60px;
+}
+.img-aliados{
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+}
+.img-aliados img{
+    width: 400px;
+    background-color: black;
+}

@@ -1,0 +1,80 @@
+.vinetaProducto {
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 8px;
+    width: 280px;
+    height: 470px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-producto {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.vinetatitulo{
+    font-weight: 400;
+    z-index: 3;
+}
+
+.vinetaPrecio{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.vinetaImagen {
+    width: 80%;
+    transition: transform 0.3s ease; 
+}
+
+.vinetaProducto:hover .vinetaImagen {
+    transform: scale(1.1);
+}
+
+.vinetaProducto:hover .vinetatitulo {
+    color: #4d774a;
+    font-weight: 600;
+}
+.input-numeric{
+    text-align: center;
+    width:40px;
+    height: 30px;
+    font-size: 16px;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    border-right: none;
+    border-left: none;
+}
+.button-indes{
+    background-color: #f1f1f1;
+    border: 1px solid #c9c9c9;
+    width:25px;
+    height: 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.content-numeric{
+    display: flex;
+}
+.content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-submit{
+    border: none;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

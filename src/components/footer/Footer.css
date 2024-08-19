@@ -1,0 +1,22 @@
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6da668;
+    color: #fff;
+    padding: 20px 0px;
+}
+.footer-name{
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-weight: 800;
+    padding-left: 5px;
+}
+.icon a{
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+}

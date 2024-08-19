@@ -1,0 +1,25 @@
+.fondo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+.app-fondo{
+    width: 60%;
+}
+.fondo-text{
+    align-self: center;
+    margin: 90px;
+    text-align: center;
+}
+.fondo-text h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.fondo-text h3{
+    color: rgb(129, 129, 129);
+    font-weight: 500;
+}   
+.fondo-text p{
+    padding: 10px;
+    color: rgb(58, 58, 58);
+}

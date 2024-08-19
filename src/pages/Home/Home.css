@@ -1,0 +1,41 @@
+.body-category{
+    background-color: #efefef;
+    text-align: center;
+    padding: 50px;
+}
+.body-text{
+    font-size: 70px;
+}
+.body-info{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(129, 129, 129);
+}
+.body-vineta{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+.swiper-pagination-bullet {
+    background: #6da668;
+}
+
+.swiper-pagination-bullet-active {
+    background: #5c9454;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #6da668 !important;
+}
+.swiper-replace{
+    width: 400px !important;
+    display: flex !important;
+    margin-right: 0px !important;
+    justify-content: center !important;
+}
+.swiper-horizontal{
+    
+    width: 1600px !important;
+
+}
